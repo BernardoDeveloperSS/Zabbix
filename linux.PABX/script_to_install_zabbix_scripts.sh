@@ -4,22 +4,22 @@ cd /etc/zabbix/
 mkdir scripts
 cd ./scripts
 
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_agentes_presos.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_asterisk.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_asterisk_uptime.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_asteriskdb_users.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_conversao.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacao_30.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacao_ontem.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacao_tamanho.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacoes_ontem.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_listener.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_manager.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_manutencao_samba.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_manutencao_sql.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_statys_by_sqlserver.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_wav.sh"
-curl "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_sql.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_agentes_presos.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_asterisk.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_asterisk_uptime.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_asteriskdb_users.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_conversao.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacao_30.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacao_ontem.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacao_tamanho.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_gravacoes_ontem.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_listener.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_manager.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_manutencao_samba.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_manutencao_sql.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_statys_by_sqlserver.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_wav.sh"
+wget "https://raw.githubusercontent.com/BernardoDeveloperSS/Zabbix/main/linux.PABX/scripts/check_sql.sh"
 
 # Edit .conf file
 chmod +x check_* && chmod +x default_sql.sh
